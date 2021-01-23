@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Uradio</title>
+    <meta name="description" content="Radio internetowe z ciekawą muzyką!" />
+	<meta name="keywords" content="radio, online, japonia, ciekawa, muzyka, audycje, animacja" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <link rel="stylesheet" href="css/mystyle.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--
+AUTOMAT(nie nadaje sie do odtwarzania strumienia, poniewaz po zapauzowaniu nie resetuje zaladowania streamu)<br>
+<audio src="http://4stream.pl:18266/_js/player.js" controls></audio>
+<br>
+-->
+    
+<div id="container">
+<div id="nav">
+<img src="pics/uradio.jpg" alt="logo">
+</div>
+    
+<div id="content">
+<h1>Radio urusai!</h1>
+<h2>Najlepsza muzyka na wyciągniecie myszki!</h2>
+<br>          
+</div>
+    
+<div id="buttons">    
+<audio src="http://4stream.pl:18266/;" id="myAudio"></audio>    
+<button class="button" onclick="playAudio()" type="button" >Włącz Radio</button>
+<input type="range" id="volume-control">
+<button class="button" onclick="pauseAudio()" type="button">Wyłącz Radio</button> 
+</div>
+    
+</div>
+<div id="footer">
+<br>
+Created by Wojtek.
+</div>
+  
+<script src="js/script.js"></script>
+    
+</body>
+</html>

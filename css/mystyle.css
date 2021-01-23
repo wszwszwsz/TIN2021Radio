@@ -1,0 +1,67 @@
+body {
+    background-image: url(../pics/tapeta.jpg);
+    font-family: 'Potta One', cursive;
+}
+h1{
+    text-align: center;
+    color: darkorange;
+}
+h2{
+    text-align: center;
+    color: darkorange;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: plum;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px purple;
+}
+
+.button:hover {background-color: purple}
+
+.button:active {
+  background-color: purple;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#container{
+    float: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#nav{
+    float: center;
+    text-align: center;
+    padding: 20px;
+	font-size: 18px;   
+}
+
+#content{
+    float: left;
+    width: 100%;
+    
+}
+#buttons{
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+#footer {
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
